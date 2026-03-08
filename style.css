@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    font-family: Georgia, serif;
+    background:#f4f4f4;
+    color:#222;
+}
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+header p{
+    font-style:italic;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+img{
+    width:100%;
+    max-width:400px;
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+
+.section{
+    margin-top:40px;
+}
+
+h2{
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    color:white;
+    margin-top:40px;
+}
