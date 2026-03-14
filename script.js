@@ -26,3 +26,26 @@ setTimeout(function(){
 },3000);
 
 }
+
+function evento(año){
+
+let texto = "";
+
+if(año == 1882){
+texto = "Conoce a Nietzsche en Roma.";
+}
+
+if(año == 1894){
+texto = "Publica su libro sobre Nietzsche.";
+}
+
+if(año == 1911){
+texto = "Se une al círculo psicoanalítico de Freud.";
+}
+
+document.getElementById("evento").innerText = texto;
+
+
+
+}
+

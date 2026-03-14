@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lou Andreas-Salomé</title>
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
 
 <style>
 </style>
@@ -14,13 +16,35 @@
 
 <header>
 <h1>Lou Andreas-Salomé</h1>
-<p>Filósofa, escritora y psicoanalista</p>
+<div class="subtitulo">Filósofa, escritora y psicoanalista</div>
 </header>
 
 <div class="container">
-    <video autoplay muted loop playsinline class="video-fondo"> <source src="https://www.dropbox.com/scl/fi/quhbxwb0t9ilt1aur7gpd/Lou-Andreas-Salom-Tr-iler-espa-ol.mp4?rlkey=eaovs25p1ymuns5ij476tomtu&raw=1" type="video/mp4"> </video>
+    
+    
 
 <img src="https://www.dropbox.com/scl/fi/g60w61ok48o74mgj24sg0/Lou.png?rlkey=pybqlmw2zisznpg7rcl9ilbyo&st=c3zn4zan&dl=1">
+<div class="timeline">
+
+<div class="timeline-item" onclick="evento(1882)">
+<span>1882</span>
+</div>
+
+<div class="timeline-item" onclick="evento(1894)">
+<span>1894</span>
+</div>
+
+<div class="timeline-item" onclick="evento(1911)">
+<span>1911</span>
+</div>
+
+</div>
+
+<p id="evento" class="evento-texto"></p>
+
+
+
+
 
 <div class="section">
 <button class="boton-cita" onclick="mostrarCita()">Mostrar frases</button>
@@ -62,12 +86,19 @@ en el movimiento psicoanalítico.
 <li>Mi vida (autobiografía)</li>
 </ul>
 </div>
+</div>  <!-- cierre de container -->
+
+<div class="video-seccion">
+
+<h2>Tráiler de la película</h2>
+
+<video controls class="video-biografia">
+<source src="https://www.dropbox.com/scl/fi/quhbxwb0t9ilt1aur7gpd/Lou-Andreas-Salom-Tr-iler-espa-ol.mp4?rlkey=eaovs25p1ymuns5ij476tomtu&raw=1" type="video/mp4">
+</video>
 
 </div>
-
-<footer>
-Página educativa sobre Lou Andreas-Salomé
-</footer>
 <script src="script.js"></script>
-</body>
-</html>
+<footer>
+    <div class="subtitulo">Página educativa sobre Lou Andreas-Salomé</div>
+
+</footer>
