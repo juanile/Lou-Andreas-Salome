@@ -57,4 +57,27 @@ document.body.classList.toggle("modo-oscuro");
 
 });
 
+let fotos = [
+
+"https://www.dropbox.com/scl/fi/g60w61ok48o74mgj24sg0/Lou.png?rlkey=pybqlmw2zisznpg7rcl9ilbyo&raw=1",
+
+"https://www.dropbox.com/scl/fi/w8blxwlmiuz49dw6l0xlu/Lou2.png?rlkey=gfmqvwpj6y0qpzfico2x7594o&st=q7sbtlly&dl=1",
+
+"https://www.dropbox.com/scl/fi/77z16za9iq4og867ziw40/Lou3.png?rlkey=j64qryof9xaujq9cukpar1wi4&st=byxabvaa&dl=1"
+
+];
+
+let indiceFoto = 0;
+
+function cambiarFoto(){
+
+indiceFoto++;
+
+if(indiceFoto >= fotos.length){
+indiceFoto = 0;
+}
+
+document.getElementById("fotoSalome").src = fotos[indiceFoto];
+
+}
 

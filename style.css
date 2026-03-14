@@ -509,3 +509,18 @@ align-items:center;
 gap:8px;
 
 }
+
+#fotoSalome{
+
+cursor:pointer;
+
+transition:transform 0.3s ease;
+
+}
+
+#fotoSalome:hover{
+
+transform:scale(1.05);
+
+}
+
