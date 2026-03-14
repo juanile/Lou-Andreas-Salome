@@ -49,3 +49,12 @@ document.getElementById("evento").innerText = texto;
 
 }
 
+const toggle = document.getElementById("modoOscuroToggle");
+
+toggle.addEventListener("change", function(){
+
+document.body.classList.toggle("modo-oscuro");
+
+});
+
+
